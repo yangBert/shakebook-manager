@@ -1,0 +1,50 @@
+.background{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  width: 100%;
+  color:#000,
+}
+.container{
+  flex: 1;
+  background-color:orange;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.menus{
+  background-color:black;
+}
+.content{
+  flex: 1;
+  background-color:#eee;
+  overflow-y: scroll;
+  padding:20px;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo {
+  padding-left: 10px;
+  font-size: 39px;
+  color: dodgerblue;
+}
+.title {
+  padding-left: 3px;
+  font-size: 23px;
+  color:dodgerblue;
+}
+.collapsedButton{
+  padding-left: 10px;
+  color: dodgerblue;
+  font-size: 20px;
+  margin-top: 3px;
+}
